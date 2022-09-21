@@ -1,9 +1,10 @@
-#include "MinerOwnedStates.h"
-#include "Locations.h"
-#include "Miner.h"
 #include "State.h"
+#include "Miner.h"
+#include "MinerOwnedStates.h"
 // #include "misc/ConsoleUtils.h"
-#include "EntityNames.h"
+#include "EnumEntityName.h"
+#include "EnumLocationType.h"
+
 #include "SingletonMessage.h"
 #include <iostream>
 #include <string>
