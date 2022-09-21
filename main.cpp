@@ -24,9 +24,12 @@ int main() {
   // create a Miner instance
   Miner miner(Miner_Bob);
 
+  int window_width = 1000; 
+  int window_height = 450;
+
   // SetTraceLogLevel(LOG_NONE);
   // SetConfigFlags(FLAG_WINDOW_RESIZABLE);
-  InitWindow(1000, 450, "Miner - Finite State Machine");
+  InitWindow(window_width, window_height, "Miner - Finite State Machine");
   int frames_counter = 0;
   int len = 0;
 
