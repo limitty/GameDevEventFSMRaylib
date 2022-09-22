@@ -125,7 +125,7 @@ void EnterMineAndDigForNugget::Exit(Miner *pMiner) {
   //      << GetNameOfEntity(pMiner->GetID()) << ": "
   //      << "Leaving the goldmine with full of sweet gold!";
   SMI->AddVal(GetNameOfEntity(pMiner->GetID()) + ": " +
-              "( Leaving the goldmine with full of sweet gold! )");
+              "Leaving the goldmine with full of sweet gold!");
 }
 
 //------------------- methods for VisitBankAndDepositGold ---------------------
